@@ -1,3 +1,3 @@
-Zangoran.github.io
+zachthe.dev
 ==================
-This is the home of Zangoran
+All about me!
