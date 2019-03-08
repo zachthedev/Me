@@ -1,5 +1,5 @@
 html {
-	background: url("../img/background.png"), linear-gradient(90deg, #00331a, #002233);
+	background: url("../img/background.png"), linear-gradient(180deg, #481100, #2b0a00);
 }
 
 body {
@@ -7,9 +7,9 @@ body {
 	max-width: 737px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: "Hans Kendrick", sans-serif;
+	font-family: "Roboto", sans-serif;
 	background: none;
-	color: #CCCCCC;
+	color: #F5F5F5;
 }
 
 section {
@@ -19,8 +19,13 @@ section {
 	justify-content: center;
 }
 
+#name {
+	min-height: 25vh !important;
+}
+
 h1 {
 	font-size: 70.127px;
+	text-align: center;
 	font-weight: 500;
 	line-height: 1.3;
 }
@@ -31,18 +36,32 @@ p {
 }
 
 a {
-	color: #CCCCCC;
-	border-bottom: 1px solid #CCCCCC;
+	color: #F5F5F5;
+	border-bottom: 1px solid #F5F5F5;
 }
 
 img {
-	position: absolute;
-	top: 7%;
-	left: 7%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
 }
 
 @media (max-width: 768px) {
 	h1 {
 		font-size: 67.005px;
 	}
+}
+
+#zach {
+	color: #ff5722;
+}
+
+#the {
+	color: #ff5722;
+	font-weight: bold;
+}
+
+#dev {
+	color: #BDBDBD;
 }
